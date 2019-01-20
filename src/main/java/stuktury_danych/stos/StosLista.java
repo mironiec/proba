@@ -21,5 +21,17 @@ public class StosLista {
     public int peek(){
         return top.getValue();
     }
-    
+
+    public boolean isEmpty() {
+        return top == null;
+    }
+
+    public void print() {
+        StosElem tmpElem = top;
+        while (tmpElem != null) {
+            System.out.println(tmpElem.getValue() + " ");
+            tmpElem = tmpElem.getPrev();
+        }
+        System.out.println();
+    }
 }
