@@ -10,7 +10,7 @@ public class StosMain {
         System.out.println("Podaj rozmiar tablicy");
         int size = scanner.nextInt();
         StosTab StosTab;
-        StosTab = new StosTab(10);
+        StosTab = new StosTab();
 
         while (true) {
             System.out.println("Podaj operacje: " +

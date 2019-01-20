@@ -13,9 +13,10 @@ public class StosLista {
     }
 
     public int pop() {
+        if (isEmpty()) {throw new StosListaOutOfIndex("Pusty stos!");
         int value = top.getValue();
         top = top.getPrev();
-
+        return value;
     }
 
     public int peek(){
