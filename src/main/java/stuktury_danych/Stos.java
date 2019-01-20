@@ -6,12 +6,12 @@ public class Stos {
 
     private int top = -1;
 
-    public  StosTab(int size) {
+    public void StosTab(int size) {
         tab = new int[size];
     }
 
     public void push(int value) throws  ArrayIndexOutOfBoundsException {
-        if (isFull()) { throw new ArrayIndexOutOfBoundsException("isFull")}
+        if (isFull()) { throw new ArrayIndexOutOfBoundsException("isFull");}
 
         tab[++top] = value;
     }
@@ -28,7 +28,7 @@ public class Stos {
         return top == -1;
     }
 
-    public boolean isFull() { return top>= tab.length-1}
+    public boolean isFull() { return top>= tab.length-1 ;}
 
     public int peek() {
         if (isEmpty()) throw  new ArrayIndexOutOfBoundsException("isEmpty");
@@ -39,5 +39,6 @@ public class Stos {
         for (int i=0; i<= top; i++) { System.out.print(tab[i] + " "); }
         System.out.println();
     }
+
 
 }
