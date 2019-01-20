@@ -30,6 +30,5 @@ public class Tablice {
         System.out.println(suma);
     }
 
-    public Tablice() {
-    }
+
 }

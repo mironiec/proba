@@ -1,5 +1,5 @@
 import stuktury_danych.Tablice;
-import struktury_danych.Stos;
+import stuktury_danych.Stos;
 
 public class Struktury {
 
