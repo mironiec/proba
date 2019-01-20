@@ -24,5 +24,13 @@ public class Stos {
         return top == -1;
     }
 
+    public int peek() {
+        return tab[top];
+    }
+
+    public void print() {
+        for (int i=0; i<= top; i++) { System.out.printl(tab[i] + " "); }
+        System.out.println();
+    }
 
 }

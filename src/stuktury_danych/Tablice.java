@@ -2,13 +2,13 @@ package stuktury_danych;
 
 public class Tablice {
 
-    public static void piszParzyste (int[] tab) {
+    public   void piszParzyste (int[] tab) {
         for (int i = tab.length - 1; i >= 0; i--) {
             if (i % 2 == 0) System.out.println(tab[i]);
         }
     }
 
-    public static void podzielnePrzezTrzy(int[] tab) {
+    public void podzielnePrzezTrzy(int[] tab) {
         int suma = 0;
 
         for (int i = 0; i < tab.length; i++) {
@@ -17,7 +17,7 @@ public class Tablice {
         System.out.println(suma);
     }
 
-    public static void sumaPieciuMinusSzesc(int[] tab) {
+    public  void sumaPieciuMinusSzesc(int[] tab) {
         int suma = 0;
 
         for (int i = 0; i<5; i++) {
@@ -30,4 +30,6 @@ public class Tablice {
         System.out.println(suma);
     }
 
+    public Tablice() {
+    }
 }
