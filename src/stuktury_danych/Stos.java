@@ -15,14 +15,14 @@ public class Stos {
     }
 
     public int pop() {
-        // int value = tab[top
+        // int value = tab[top]
         // top--;
         // return value;
         return tab[top--];
     }
     pubic boolean isEmpty() {
-        return top ==-1;
+        return top == -1;
     }
-     
+
 
 }
