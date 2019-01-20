@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-import stuktury_danych.*;
+import stuktury_danych.StosTab;
 
 public class StosMain {
 
     public static void wywowalStosTab() {
-        Stos StosTab = new Stos(10);
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj rozmiar tablicy");
         int size = scanner.nextInt();
+        StosTab StosTab;
+        StosTab = new StosTab(10);
 
         while (true) {
             System.out.println("Podaj operacje: " +

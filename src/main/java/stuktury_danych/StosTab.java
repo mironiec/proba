@@ -1,6 +1,6 @@
 package stuktury_danych;
 
-public class Stos {
+public class StosTab {
 
     private int[] tab;
 
