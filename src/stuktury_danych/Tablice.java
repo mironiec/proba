@@ -1,4 +1,6 @@
-public class tablice {
+package stuktury_danych;
+
+public class Tablice {
 
     public static void piszParzyste (int[] tab) {
         for (int i = tab.length - 1; i >= 0; i--) {

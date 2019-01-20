@@ -1,3 +1,5 @@
+package stuktury_danych;
+
 public class Stos {
 
     private int[] tab;
@@ -18,6 +20,9 @@ public class Stos {
         // return value;
         return tab[top--];
     }
-    public int
+    pubic boolean isEmpty() {
+        return top ==-1;
+    }
+     
 
 }
